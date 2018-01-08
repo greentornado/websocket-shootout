@@ -1,0 +1,783 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Hai/.nvm/versions/node/v7.7.3/bin/node',
+1 verbose cli   '/Users/Hai/.nvm/versions/node/v7.7.3/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bufferutil
+20 silly mapToRegistry name bufferutil
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bufferutil',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bufferutil',
+23 silly mapToRegistry   name: 'bufferutil',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+25 silly fetchNamedPackageData faye-websocket
+26 silly mapToRegistry name faye-websocket
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'faye-websocket',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'faye-websocket',
+29 silly mapToRegistry   name: 'faye-websocket',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/faye-websocket
+31 silly fetchNamedPackageData uws
+32 silly mapToRegistry name uws
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'uws',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'uws',
+35 silly mapToRegistry   name: 'uws',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/uws
+37 silly fetchNamedPackageData ws
+38 silly mapToRegistry name ws
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'ws',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'ws',
+41 silly mapToRegistry   name: 'ws',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/ws
+43 verbose request uri https://registry.npmjs.org/bufferutil
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 12:45:47 AM
+46 verbose request id a62cc90a7523676e
+47 verbose etag W/"58b95213-3769"
+48 verbose lastModified Fri, 03 Mar 2017 11:22:59 GMT
+49 http request GET https://registry.npmjs.org/bufferutil
+50 verbose request uri https://registry.npmjs.org/faye-websocket
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 12:45:48 AM
+53 verbose lastModified Sun, 22 Jan 2017 19:51:41 GMT
+54 http request GET https://registry.npmjs.org/faye-websocket
+55 verbose request uri https://registry.npmjs.org/uws
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 12:45:48 AM
+58 verbose lastModified Mon, 03 Apr 2017 06:08:17 GMT
+59 http request GET https://registry.npmjs.org/uws
+60 verbose request uri https://registry.npmjs.org/ws
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 12:45:48 AM
+63 verbose etag W/"58eda5d1-1b4b6"
+64 verbose lastModified Wed, 12 Apr 2017 03:58:09 GMT
+65 http request GET https://registry.npmjs.org/ws
+66 http 304 https://registry.npmjs.org/bufferutil
+67 verbose headers { date: 'Wed, 12 Apr 2017 17:45:48 GMT',
+67 verbose headers   via: '1.1 varnish',
+67 verbose headers   'cache-control': 'max-age=300',
+67 verbose headers   etag: 'W/"58b95213-3769"',
+67 verbose headers   age: '20',
+67 verbose headers   connection: 'keep-alive',
+67 verbose headers   'x-served-by': 'cache-sin18022-SIN',
+67 verbose headers   'x-cache': 'HIT',
+67 verbose headers   'x-cache-hits': '1',
+67 verbose headers   'x-timer': 'S1492019148.285488,VS0,VE0',
+67 verbose headers   vary: 'Accept-Encoding' }
+68 silly get cb [ 304,
+68 silly get   { date: 'Wed, 12 Apr 2017 17:45:48 GMT',
+68 silly get     via: '1.1 varnish',
+68 silly get     'cache-control': 'max-age=300',
+68 silly get     etag: 'W/"58b95213-3769"',
+68 silly get     age: '20',
+68 silly get     connection: 'keep-alive',
+68 silly get     'x-served-by': 'cache-sin18022-SIN',
+68 silly get     'x-cache': 'HIT',
+68 silly get     'x-cache-hits': '1',
+68 silly get     'x-timer': 'S1492019148.285488,VS0,VE0',
+68 silly get     vary: 'Accept-Encoding' } ]
+69 verbose etag https://registry.npmjs.org/bufferutil from cache
+70 verbose get saving bufferutil to /Users/Hai/.npm/registry.npmjs.org/bufferutil/.cache.json
+71 verbose correctMkdir /Users/Hai/.npm correctMkdir not in flight; initializing
+72 silly pickManifestFromRegistryMetadata spec >=3.0.0 <4.0.0 tag latest versions [ '1.0.0',
+72 silly pickManifestFromRegistryMetadata   '1.0.1',
+72 silly pickManifestFromRegistryMetadata   '1.1.0',
+72 silly pickManifestFromRegistryMetadata   '1.2.0',
+72 silly pickManifestFromRegistryMetadata   '1.2.1',
+72 silly pickManifestFromRegistryMetadata   '1.3.0',
+72 silly pickManifestFromRegistryMetadata   '2.0.0',
+72 silly pickManifestFromRegistryMetadata   '2.0.1',
+72 silly pickManifestFromRegistryMetadata   '3.0.0' ]
+73 silly resolveWithNewModule bufferutil@3.0.0 checking installable status
+74 silly cache add args [ 'bufferutil@^3.0.0', null ]
+75 verbose cache add spec bufferutil@^3.0.0
+76 silly cache add parsed spec Result {
+76 silly cache add   raw: 'bufferutil@^3.0.0',
+76 silly cache add   scope: null,
+76 silly cache add   escapedName: 'bufferutil',
+76 silly cache add   name: 'bufferutil',
+76 silly cache add   rawSpec: '^3.0.0',
+76 silly cache add   spec: '>=3.0.0 <4.0.0',
+76 silly cache add   type: 'range' }
+77 silly addNamed bufferutil@>=3.0.0 <4.0.0
+78 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for bufferutil
+79 silly addNameRange { name: 'bufferutil', range: '>=3.0.0 <4.0.0', hasData: false }
+80 silly mapToRegistry name bufferutil
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'bufferutil',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'bufferutil',
+83 silly mapToRegistry   name: 'bufferutil',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+85 verbose addNameRange registry:https://registry.npmjs.org/bufferutil not in flight; fetching
+86 verbose get https://registry.npmjs.org/bufferutil not expired, no request
+87 silly addNameRange number 2 { name: 'bufferutil', range: '>=3.0.0 <4.0.0', hasData: true }
+88 silly addNameRange versions [ 'bufferutil',
+88 silly addNameRange   [ '1.0.0',
+88 silly addNameRange     '1.0.1',
+88 silly addNameRange     '1.1.0',
+88 silly addNameRange     '1.2.0',
+88 silly addNameRange     '1.2.1',
+88 silly addNameRange     '1.3.0',
+88 silly addNameRange     '2.0.0',
+88 silly addNameRange     '2.0.1',
+88 silly addNameRange     '3.0.0' ] ]
+89 silly pickManifestFromRegistryMetadata spec >=3.0.0 <4.0.0 tag latest versions [ '1.0.0',
+89 silly pickManifestFromRegistryMetadata   '1.0.1',
+89 silly pickManifestFromRegistryMetadata   '1.1.0',
+89 silly pickManifestFromRegistryMetadata   '1.2.0',
+89 silly pickManifestFromRegistryMetadata   '1.2.1',
+89 silly pickManifestFromRegistryMetadata   '1.3.0',
+89 silly pickManifestFromRegistryMetadata   '2.0.0',
+89 silly pickManifestFromRegistryMetadata   '2.0.1',
+89 silly pickManifestFromRegistryMetadata   '3.0.0' ]
+90 silly addNamed bufferutil@latest
+91 verbose addNamed "latest" is being treated as a dist-tag for bufferutil
+92 info addNameTag [ 'bufferutil', 'latest' ]
+93 silly mapToRegistry name bufferutil
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'bufferutil',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   escapedName: 'bufferutil',
+96 silly mapToRegistry   name: 'bufferutil',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+98 verbose addNameTag registry:https://registry.npmjs.org/bufferutil already in flight; waiting
+99 silly addNameTag next cb for bufferutil with tag latest
+100 silly addNamed bufferutil@3.0.0
+101 verbose addNamed "3.0.0" is a plain semver version for bufferutil
+102 http 304 https://registry.npmjs.org/ws
+103 verbose headers { date: 'Wed, 12 Apr 2017 17:45:48 GMT',
+103 verbose headers   via: '1.1 varnish',
+103 verbose headers   'cache-control': 'max-age=300',
+103 verbose headers   etag: 'W/"58eda5d1-1b4b6"',
+103 verbose headers   age: '72',
+103 verbose headers   connection: 'keep-alive',
+103 verbose headers   'x-served-by': 'cache-sin18021-SIN',
+103 verbose headers   'x-cache': 'HIT',
+103 verbose headers   'x-cache-hits': '1',
+103 verbose headers   'x-timer': 'S1492019148.303559,VS0,VE0',
+103 verbose headers   vary: 'Accept-Encoding' }
+104 silly get cb [ 304,
+104 silly get   { date: 'Wed, 12 Apr 2017 17:45:48 GMT',
+104 silly get     via: '1.1 varnish',
+104 silly get     'cache-control': 'max-age=300',
+104 silly get     etag: 'W/"58eda5d1-1b4b6"',
+104 silly get     age: '72',
+104 silly get     connection: 'keep-alive',
+104 silly get     'x-served-by': 'cache-sin18021-SIN',
+104 silly get     'x-cache': 'HIT',
+104 silly get     'x-cache-hits': '1',
+104 silly get     'x-timer': 'S1492019148.303559,VS0,VE0',
+104 silly get     vary: 'Accept-Encoding' } ]
+105 verbose etag https://registry.npmjs.org/ws from cache
+106 verbose get saving ws to /Users/Hai/.npm/registry.npmjs.org/ws/.cache.json
+107 verbose correctMkdir /Users/Hai/.npm correctMkdir not in flight; initializing
+108 http 200 https://registry.npmjs.org/uws
+109 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+109 verbose headers   'content-type': 'application/json',
+109 verbose headers   'last-modified': 'Mon, 03 Apr 2017 06:08:17 GMT',
+109 verbose headers   'content-encoding': 'gzip',
+109 verbose headers   'cache-control': 'max-age=300',
+109 verbose headers   'content-length': '2573',
+109 verbose headers   'accept-ranges': 'bytes',
+109 verbose headers   date: 'Wed, 12 Apr 2017 17:45:48 GMT',
+109 verbose headers   via: '1.1 varnish',
+109 verbose headers   age: '20',
+109 verbose headers   connection: 'keep-alive',
+109 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+109 verbose headers   'x-cache': 'HIT',
+109 verbose headers   'x-cache-hits': '1',
+109 verbose headers   'x-timer': 'S1492019148.307067,VS0,VE0',
+109 verbose headers   vary: 'Accept-Encoding' }
+110 silly get cb [ 200,
+110 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+110 silly get     'content-type': 'application/json',
+110 silly get     'last-modified': 'Mon, 03 Apr 2017 06:08:17 GMT',
+110 silly get     'content-encoding': 'gzip',
+110 silly get     'cache-control': 'max-age=300',
+110 silly get     'content-length': '2573',
+110 silly get     'accept-ranges': 'bytes',
+110 silly get     date: 'Wed, 12 Apr 2017 17:45:48 GMT',
+110 silly get     via: '1.1 varnish',
+110 silly get     age: '20',
+110 silly get     connection: 'keep-alive',
+110 silly get     'x-served-by': 'cache-sin18026-SIN',
+110 silly get     'x-cache': 'HIT',
+110 silly get     'x-cache-hits': '1',
+110 silly get     'x-timer': 'S1492019148.307067,VS0,VE0',
+110 silly get     vary: 'Accept-Encoding' } ]
+111 verbose get saving uws to /Users/Hai/.npm/registry.npmjs.org/uws/.cache.json
+112 verbose correctMkdir /Users/Hai/.npm correctMkdir not in flight; initializing
+113 silly cache afterAdd bufferutil@3.0.0
+114 verbose afterAdd /Users/Hai/.npm/bufferutil/3.0.0/package/package.json not in flight; writing
+115 verbose correctMkdir /Users/Hai/.npm correctMkdir not in flight; initializing
+116 silly pickManifestFromRegistryMetadata spec >=2.2.2 <3.0.0 tag latest versions [ '0.2.6',
+116 silly pickManifestFromRegistryMetadata   '0.2.8',
+116 silly pickManifestFromRegistryMetadata   '0.2.9',
+116 silly pickManifestFromRegistryMetadata   '0.3.0',
+116 silly pickManifestFromRegistryMetadata   '0.3.1',
+116 silly pickManifestFromRegistryMetadata   '0.3.2',
+116 silly pickManifestFromRegistryMetadata   '0.3.3',
+116 silly pickManifestFromRegistryMetadata   '0.3.4',
+116 silly pickManifestFromRegistryMetadata   '0.3.4-2',
+116 silly pickManifestFromRegistryMetadata   '0.3.5',
+116 silly pickManifestFromRegistryMetadata   '0.3.5-2',
+116 silly pickManifestFromRegistryMetadata   '0.3.5-3',
+116 silly pickManifestFromRegistryMetadata   '0.3.5-4',
+116 silly pickManifestFromRegistryMetadata   '0.3.6',
+116 silly pickManifestFromRegistryMetadata   '0.3.7',
+116 silly pickManifestFromRegistryMetadata   '0.3.8',
+116 silly pickManifestFromRegistryMetadata   '0.3.9',
+116 silly pickManifestFromRegistryMetadata   '0.4.0',
+116 silly pickManifestFromRegistryMetadata   '0.4.1',
+116 silly pickManifestFromRegistryMetadata   '0.4.2',
+116 silly pickManifestFromRegistryMetadata   '0.4.3',
+116 silly pickManifestFromRegistryMetadata   '0.4.5',
+116 silly pickManifestFromRegistryMetadata   '0.4.6',
+116 silly pickManifestFromRegistryMetadata   '0.4.7',
+116 silly pickManifestFromRegistryMetadata   '0.4.8',
+116 silly pickManifestFromRegistryMetadata   '0.4.9',
+116 silly pickManifestFromRegistryMetadata   '0.4.10',
+116 silly pickManifestFromRegistryMetadata   '0.4.11',
+116 silly pickManifestFromRegistryMetadata   '0.4.12',
+116 silly pickManifestFromRegistryMetadata   '0.4.13',
+116 silly pickManifestFromRegistryMetadata   '0.4.14',
+116 silly pickManifestFromRegistryMetadata   '0.4.15',
+116 silly pickManifestFromRegistryMetadata   '0.4.16',
+116 silly pickManifestFromRegistryMetadata   '0.4.17',
+116 silly pickManifestFromRegistryMetadata   '0.4.18',
+116 silly pickManifestFromRegistryMetadata   '0.4.19',
+116 silly pickManifestFromRegistryMetadata   '0.4.20',
+116 silly pickManifestFromRegistryMetadata   '0.4.21',
+116 silly pickManifestFromRegistryMetadata   '0.4.22',
+116 silly pickManifestFromRegistryMetadata   '0.4.23',
+116 silly pickManifestFromRegistryMetadata   '0.4.24',
+116 silly pickManifestFromRegistryMetadata   '0.4.25',
+116 silly pickManifestFromRegistryMetadata   '0.4.27',
+116 silly pickManifestFromRegistryMetadata   '0.4.28',
+116 silly pickManifestFromRegistryMetadata   '0.4.29',
+116 silly pickManifestFromRegistryMetadata   '0.4.30',
+116 silly pickManifestFromRegistryMetadata   '0.4.31',
+116 silly pickManifestFromRegistryMetadata   '0.4.32',
+116 silly pickManifestFromRegistryMetadata   '0.5.0',
+116 silly pickManifestFromRegistryMetadata   '0.6.0',
+116 silly pickManifestFromRegistryMetadata   '0.6.1',
+116 silly pickManifestFromRegistryMetadata   '0.6.2',
+116 silly pickManifestFromRegistryMetadata   '0.6.3',
+116 silly pickManifestFromRegistryMetadata   '0.6.4',
+116 silly pickManifestFromRegistryMetadata   '0.6.5',
+116 silly pickManifestFromRegistryMetadata   '0.7.0',
+116 silly pickManifestFromRegistryMetadata   '0.7.1',
+116 silly pickManifestFromRegistryMetadata   '0.7.2',
+116 silly pickManifestFromRegistryMetadata   '0.8.0',
+116 silly pickManifestFromRegistryMetadata   '0.8.1',
+116 silly pickManifestFromRegistryMetadata   '1.0.0',
+116 silly pickManifestFromRegistryMetadata   '1.0.1',
+116 silly pickManifestFromRegistryMetadata   '1.1.0',
+116 silly pickManifestFromRegistryMetadata   '1.1.1',
+116 silly pickManifestFromRegistryMetadata   '2.0.0-beta.0',
+116 silly pickManifestFromRegistryMetadata   '2.0.0-beta.1',
+116 silly pickManifestFromRegistryMetadata   '2.0.0-beta.2',
+116 silly pickManifestFromRegistryMetadata   '2.0.0',
+116 silly pickManifestFromRegistryMetadata   '2.0.1',
+116 silly pickManifestFromRegistryMetadata   '2.0.2',
+116 silly pickManifestFromRegistryMetadata   '2.0.3',
+116 silly pickManifestFromRegistryMetadata   '1.1.2',
+116 silly pickManifestFromRegistryMetadata   '2.1.0',
+116 silly pickManifestFromRegistryMetadata   '2.2.0',
+116 silly pickManifestFromRegistryMetadata   '1.1.3',
+116 silly pickManifestFromRegistryMetadata   '1.1.4',
+116 silly pickManifestFromRegistryMetadata   '2.2.1',
+116 silly pickManifestFromRegistryMetadata   '2.2.2',
+116 silly pickManifestFromRegistryMetadata   '2.2.3' ]
+117 silly resolveWithNewModule ws@2.2.3 checking installable status
+118 silly cache add args [ 'ws@^2.2.2', null ]
+119 verbose cache add spec ws@^2.2.2
+120 silly cache add parsed spec Result {
+120 silly cache add   raw: 'ws@^2.2.2',
+120 silly cache add   scope: null,
+120 silly cache add   escapedName: 'ws',
+120 silly cache add   name: 'ws',
+120 silly cache add   rawSpec: '^2.2.2',
+120 silly cache add   spec: '>=2.2.2 <3.0.0',
+120 silly cache add   type: 'range' }
+121 silly addNamed ws@>=2.2.2 <3.0.0
+122 verbose addNamed ">=2.2.2 <3.0.0" is a valid semver range for ws
+123 silly addNameRange { name: 'ws', range: '>=2.2.2 <3.0.0', hasData: false }
+124 silly mapToRegistry name ws
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry data Result {
+127 silly mapToRegistry   raw: 'ws',
+127 silly mapToRegistry   scope: null,
+127 silly mapToRegistry   escapedName: 'ws',
+127 silly mapToRegistry   name: 'ws',
+127 silly mapToRegistry   rawSpec: '',
+127 silly mapToRegistry   spec: 'latest',
+127 silly mapToRegistry   type: 'tag' }
+128 silly mapToRegistry uri https://registry.npmjs.org/ws
+129 verbose addNameRange registry:https://registry.npmjs.org/ws not in flight; fetching
+130 silly pickManifestFromRegistryMetadata spec >=0.10.0 <0.11.0 tag latest versions [ '0.14.1' ]
+131 silly fetchPackageMetaData Error: No compatible version found: uws@^0.10.0
+131 silly fetchPackageMetaData Valid install targets:
+131 silly fetchPackageMetaData 0.14.1
+131 silly fetchPackageMetaData
+131 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+131 silly fetchPackageMetaData     at /Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+131 silly fetchPackageMetaData     at /Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+131 silly fetchPackageMetaData     at saved (/Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+131 silly fetchPackageMetaData     at /Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+131 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15)
+131 silly fetchPackageMetaData  error for uws@^0.10.0 { Error: No compatible version found: uws@^0.10.0
+131 silly fetchPackageMetaData Valid install targets:
+131 silly fetchPackageMetaData 0.14.1
+131 silly fetchPackageMetaData
+131 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+131 silly fetchPackageMetaData     at /Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+131 silly fetchPackageMetaData     at /Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+131 silly fetchPackageMetaData     at saved (/Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+131 silly fetchPackageMetaData     at /Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+131 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15) code: 'ETARGET' }
+132 verbose afterAdd /Users/Hai/.npm/bufferutil/3.0.0/package/package.json written
+133 verbose get https://registry.npmjs.org/ws not expired, no request
+134 silly addNameRange number 2 { name: 'ws', range: '>=2.2.2 <3.0.0', hasData: true }
+135 silly addNameRange versions [ 'ws',
+135 silly addNameRange   [ '0.2.6',
+135 silly addNameRange     '0.2.8',
+135 silly addNameRange     '0.2.9',
+135 silly addNameRange     '0.3.0',
+135 silly addNameRange     '0.3.1',
+135 silly addNameRange     '0.3.2',
+135 silly addNameRange     '0.3.3',
+135 silly addNameRange     '0.3.4',
+135 silly addNameRange     '0.3.4-2',
+135 silly addNameRange     '0.3.5',
+135 silly addNameRange     '0.3.5-2',
+135 silly addNameRange     '0.3.5-3',
+135 silly addNameRange     '0.3.5-4',
+135 silly addNameRange     '0.3.6',
+135 silly addNameRange     '0.3.7',
+135 silly addNameRange     '0.3.8',
+135 silly addNameRange     '0.3.9',
+135 silly addNameRange     '0.4.0',
+135 silly addNameRange     '0.4.1',
+135 silly addNameRange     '0.4.2',
+135 silly addNameRange     '0.4.3',
+135 silly addNameRange     '0.4.5',
+135 silly addNameRange     '0.4.6',
+135 silly addNameRange     '0.4.7',
+135 silly addNameRange     '0.4.8',
+135 silly addNameRange     '0.4.9',
+135 silly addNameRange     '0.4.10',
+135 silly addNameRange     '0.4.11',
+135 silly addNameRange     '0.4.12',
+135 silly addNameRange     '0.4.13',
+135 silly addNameRange     '0.4.14',
+135 silly addNameRange     '0.4.15',
+135 silly addNameRange     '0.4.16',
+135 silly addNameRange     '0.4.17',
+135 silly addNameRange     '0.4.18',
+135 silly addNameRange     '0.4.19',
+135 silly addNameRange     '0.4.20',
+135 silly addNameRange     '0.4.21',
+135 silly addNameRange     '0.4.22',
+135 silly addNameRange     '0.4.23',
+135 silly addNameRange     '0.4.24',
+135 silly addNameRange     '0.4.25',
+135 silly addNameRange     '0.4.27',
+135 silly addNameRange     '0.4.28',
+135 silly addNameRange     '0.4.29',
+135 silly addNameRange     '0.4.30',
+135 silly addNameRange     '0.4.31',
+135 silly addNameRange     '0.4.32',
+135 silly addNameRange     '0.5.0',
+135 silly addNameRange     '0.6.0',
+135 silly addNameRange     '0.6.1',
+135 silly addNameRange     '0.6.2',
+135 silly addNameRange     '0.6.3',
+135 silly addNameRange     '0.6.4',
+135 silly addNameRange     '0.6.5',
+135 silly addNameRange     '0.7.0',
+135 silly addNameRange     '0.7.1',
+135 silly addNameRange     '0.7.2',
+135 silly addNameRange     '0.8.0',
+135 silly addNameRange     '0.8.1',
+135 silly addNameRange     '1.0.0',
+135 silly addNameRange     '1.0.1',
+135 silly addNameRange     '1.1.0',
+135 silly addNameRange     '1.1.1',
+135 silly addNameRange     '2.0.0-beta.0',
+135 silly addNameRange     '2.0.0-beta.1',
+135 silly addNameRange     '2.0.0-beta.2',
+135 silly addNameRange     '2.0.0',
+135 silly addNameRange     '2.0.1',
+135 silly addNameRange     '2.0.2',
+135 silly addNameRange     '2.0.3',
+135 silly addNameRange     '1.1.2',
+135 silly addNameRange     '2.1.0',
+135 silly addNameRange     '2.2.0',
+135 silly addNameRange     '1.1.3',
+135 silly addNameRange     '1.1.4',
+135 silly addNameRange     '2.2.1',
+135 silly addNameRange     '2.2.2',
+135 silly addNameRange     '2.2.3' ] ]
+136 silly pickManifestFromRegistryMetadata spec >=2.2.2 <3.0.0 tag latest versions [ '0.2.6',
+136 silly pickManifestFromRegistryMetadata   '0.2.8',
+136 silly pickManifestFromRegistryMetadata   '0.2.9',
+136 silly pickManifestFromRegistryMetadata   '0.3.0',
+136 silly pickManifestFromRegistryMetadata   '0.3.1',
+136 silly pickManifestFromRegistryMetadata   '0.3.2',
+136 silly pickManifestFromRegistryMetadata   '0.3.3',
+136 silly pickManifestFromRegistryMetadata   '0.3.4',
+136 silly pickManifestFromRegistryMetadata   '0.3.4-2',
+136 silly pickManifestFromRegistryMetadata   '0.3.5',
+136 silly pickManifestFromRegistryMetadata   '0.3.5-2',
+136 silly pickManifestFromRegistryMetadata   '0.3.5-3',
+136 silly pickManifestFromRegistryMetadata   '0.3.5-4',
+136 silly pickManifestFromRegistryMetadata   '0.3.6',
+136 silly pickManifestFromRegistryMetadata   '0.3.7',
+136 silly pickManifestFromRegistryMetadata   '0.3.8',
+136 silly pickManifestFromRegistryMetadata   '0.3.9',
+136 silly pickManifestFromRegistryMetadata   '0.4.0',
+136 silly pickManifestFromRegistryMetadata   '0.4.1',
+136 silly pickManifestFromRegistryMetadata   '0.4.2',
+136 silly pickManifestFromRegistryMetadata   '0.4.3',
+136 silly pickManifestFromRegistryMetadata   '0.4.5',
+136 silly pickManifestFromRegistryMetadata   '0.4.6',
+136 silly pickManifestFromRegistryMetadata   '0.4.7',
+136 silly pickManifestFromRegistryMetadata   '0.4.8',
+136 silly pickManifestFromRegistryMetadata   '0.4.9',
+136 silly pickManifestFromRegistryMetadata   '0.4.10',
+136 silly pickManifestFromRegistryMetadata   '0.4.11',
+136 silly pickManifestFromRegistryMetadata   '0.4.12',
+136 silly pickManifestFromRegistryMetadata   '0.4.13',
+136 silly pickManifestFromRegistryMetadata   '0.4.14',
+136 silly pickManifestFromRegistryMetadata   '0.4.15',
+136 silly pickManifestFromRegistryMetadata   '0.4.16',
+136 silly pickManifestFromRegistryMetadata   '0.4.17',
+136 silly pickManifestFromRegistryMetadata   '0.4.18',
+136 silly pickManifestFromRegistryMetadata   '0.4.19',
+136 silly pickManifestFromRegistryMetadata   '0.4.20',
+136 silly pickManifestFromRegistryMetadata   '0.4.21',
+136 silly pickManifestFromRegistryMetadata   '0.4.22',
+136 silly pickManifestFromRegistryMetadata   '0.4.23',
+136 silly pickManifestFromRegistryMetadata   '0.4.24',
+136 silly pickManifestFromRegistryMetadata   '0.4.25',
+136 silly pickManifestFromRegistryMetadata   '0.4.27',
+136 silly pickManifestFromRegistryMetadata   '0.4.28',
+136 silly pickManifestFromRegistryMetadata   '0.4.29',
+136 silly pickManifestFromRegistryMetadata   '0.4.30',
+136 silly pickManifestFromRegistryMetadata   '0.4.31',
+136 silly pickManifestFromRegistryMetadata   '0.4.32',
+136 silly pickManifestFromRegistryMetadata   '0.5.0',
+136 silly pickManifestFromRegistryMetadata   '0.6.0',
+136 silly pickManifestFromRegistryMetadata   '0.6.1',
+136 silly pickManifestFromRegistryMetadata   '0.6.2',
+136 silly pickManifestFromRegistryMetadata   '0.6.3',
+136 silly pickManifestFromRegistryMetadata   '0.6.4',
+136 silly pickManifestFromRegistryMetadata   '0.6.5',
+136 silly pickManifestFromRegistryMetadata   '0.7.0',
+136 silly pickManifestFromRegistryMetadata   '0.7.1',
+136 silly pickManifestFromRegistryMetadata   '0.7.2',
+136 silly pickManifestFromRegistryMetadata   '0.8.0',
+136 silly pickManifestFromRegistryMetadata   '0.8.1',
+136 silly pickManifestFromRegistryMetadata   '1.0.0',
+136 silly pickManifestFromRegistryMetadata   '1.0.1',
+136 silly pickManifestFromRegistryMetadata   '1.1.0',
+136 silly pickManifestFromRegistryMetadata   '1.1.1',
+136 silly pickManifestFromRegistryMetadata   '2.0.0-beta.0',
+136 silly pickManifestFromRegistryMetadata   '2.0.0-beta.1',
+136 silly pickManifestFromRegistryMetadata   '2.0.0-beta.2',
+136 silly pickManifestFromRegistryMetadata   '2.0.0',
+136 silly pickManifestFromRegistryMetadata   '2.0.1',
+136 silly pickManifestFromRegistryMetadata   '2.0.2',
+136 silly pickManifestFromRegistryMetadata   '2.0.3',
+136 silly pickManifestFromRegistryMetadata   '1.1.2',
+136 silly pickManifestFromRegistryMetadata   '2.1.0',
+136 silly pickManifestFromRegistryMetadata   '2.2.0',
+136 silly pickManifestFromRegistryMetadata   '1.1.3',
+136 silly pickManifestFromRegistryMetadata   '1.1.4',
+136 silly pickManifestFromRegistryMetadata   '2.2.1',
+136 silly pickManifestFromRegistryMetadata   '2.2.2',
+136 silly pickManifestFromRegistryMetadata   '2.2.3' ]
+137 silly addNamed ws@latest
+138 verbose addNamed "latest" is being treated as a dist-tag for ws
+139 info addNameTag [ 'ws', 'latest' ]
+140 silly mapToRegistry name ws
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'ws',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   escapedName: 'ws',
+143 silly mapToRegistry   name: 'ws',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag' }
+144 silly mapToRegistry uri https://registry.npmjs.org/ws
+145 verbose addNameTag registry:https://registry.npmjs.org/ws already in flight; waiting
+146 silly addNameTag next cb for ws with tag latest
+147 silly addNamed ws@2.2.3
+148 verbose addNamed "2.2.3" is a plain semver version for ws
+149 silly cache afterAdd ws@2.2.3
+150 verbose afterAdd /Users/Hai/.npm/ws/2.2.3/package/package.json not in flight; writing
+151 verbose correctMkdir /Users/Hai/.npm correctMkdir not in flight; initializing
+152 verbose afterAdd /Users/Hai/.npm/ws/2.2.3/package/package.json written
+153 http 200 https://registry.npmjs.org/faye-websocket
+154 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+154 verbose headers   'content-type': 'application/json',
+154 verbose headers   'last-modified': 'Sun, 22 Jan 2017 19:51:41 GMT',
+154 verbose headers   'content-encoding': 'gzip',
+154 verbose headers   'cache-control': 'max-age=300',
+154 verbose headers   'content-length': '8236',
+154 verbose headers   'accept-ranges': 'bytes',
+154 verbose headers   date: 'Wed, 12 Apr 2017 17:45:48 GMT',
+154 verbose headers   via: '1.1 varnish',
+154 verbose headers   age: '195',
+154 verbose headers   connection: 'keep-alive',
+154 verbose headers   'x-served-by': 'cache-sin18022-SIN',
+154 verbose headers   'x-cache': 'HIT',
+154 verbose headers   'x-cache-hits': '2',
+154 verbose headers   'x-timer': 'S1492019148.372573,VS0,VE0',
+154 verbose headers   vary: 'Accept-Encoding' }
+155 silly get cb [ 200,
+155 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+155 silly get     'content-type': 'application/json',
+155 silly get     'last-modified': 'Sun, 22 Jan 2017 19:51:41 GMT',
+155 silly get     'content-encoding': 'gzip',
+155 silly get     'cache-control': 'max-age=300',
+155 silly get     'content-length': '8236',
+155 silly get     'accept-ranges': 'bytes',
+155 silly get     date: 'Wed, 12 Apr 2017 17:45:48 GMT',
+155 silly get     via: '1.1 varnish',
+155 silly get     age: '195',
+155 silly get     connection: 'keep-alive',
+155 silly get     'x-served-by': 'cache-sin18022-SIN',
+155 silly get     'x-cache': 'HIT',
+155 silly get     'x-cache-hits': '2',
+155 silly get     'x-timer': 'S1492019148.372573,VS0,VE0',
+155 silly get     vary: 'Accept-Encoding' } ]
+156 verbose get saving faye-websocket to /Users/Hai/.npm/registry.npmjs.org/faye-websocket/.cache.json
+157 verbose correctMkdir /Users/Hai/.npm correctMkdir not in flight; initializing
+158 silly pickManifestFromRegistryMetadata spec >=0.11.0 <0.12.0 tag latest versions [ '0.1.0',
+158 silly pickManifestFromRegistryMetadata   '0.1.1',
+158 silly pickManifestFromRegistryMetadata   '0.1.2',
+158 silly pickManifestFromRegistryMetadata   '0.2.0',
+158 silly pickManifestFromRegistryMetadata   '0.3.0',
+158 silly pickManifestFromRegistryMetadata   '0.3.1',
+158 silly pickManifestFromRegistryMetadata   '0.4.0',
+158 silly pickManifestFromRegistryMetadata   '0.4.1',
+158 silly pickManifestFromRegistryMetadata   '0.4.2',
+158 silly pickManifestFromRegistryMetadata   '0.4.3',
+158 silly pickManifestFromRegistryMetadata   '0.4.4',
+158 silly pickManifestFromRegistryMetadata   '0.5.0',
+158 silly pickManifestFromRegistryMetadata   '0.6.0',
+158 silly pickManifestFromRegistryMetadata   '0.6.1',
+158 silly pickManifestFromRegistryMetadata   '0.7.0',
+158 silly pickManifestFromRegistryMetadata   '0.7.1',
+158 silly pickManifestFromRegistryMetadata   '0.7.2',
+158 silly pickManifestFromRegistryMetadata   '0.7.3',
+158 silly pickManifestFromRegistryMetadata   '0.8.0',
+158 silly pickManifestFromRegistryMetadata   '0.8.1',
+158 silly pickManifestFromRegistryMetadata   '0.9.0',
+158 silly pickManifestFromRegistryMetadata   '0.9.1',
+158 silly pickManifestFromRegistryMetadata   '0.9.2',
+158 silly pickManifestFromRegistryMetadata   '0.9.3',
+158 silly pickManifestFromRegistryMetadata   '0.9.4',
+158 silly pickManifestFromRegistryMetadata   '0.10.0',
+158 silly pickManifestFromRegistryMetadata   '0.11.0',
+158 silly pickManifestFromRegistryMetadata   '0.11.1' ]
+159 silly resolveWithNewModule faye-websocket@0.11.1 checking installable status
+160 silly cache add args [ 'faye-websocket@^0.11.0', null ]
+161 verbose cache add spec faye-websocket@^0.11.0
+162 silly cache add parsed spec Result {
+162 silly cache add   raw: 'faye-websocket@^0.11.0',
+162 silly cache add   scope: null,
+162 silly cache add   escapedName: 'faye-websocket',
+162 silly cache add   name: 'faye-websocket',
+162 silly cache add   rawSpec: '^0.11.0',
+162 silly cache add   spec: '>=0.11.0 <0.12.0',
+162 silly cache add   type: 'range' }
+163 silly addNamed faye-websocket@>=0.11.0 <0.12.0
+164 verbose addNamed ">=0.11.0 <0.12.0" is a valid semver range for faye-websocket
+165 silly addNameRange { name: 'faye-websocket',
+165 silly addNameRange   range: '>=0.11.0 <0.12.0',
+165 silly addNameRange   hasData: false }
+166 silly mapToRegistry name faye-websocket
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry data Result {
+169 silly mapToRegistry   raw: 'faye-websocket',
+169 silly mapToRegistry   scope: null,
+169 silly mapToRegistry   escapedName: 'faye-websocket',
+169 silly mapToRegistry   name: 'faye-websocket',
+169 silly mapToRegistry   rawSpec: '',
+169 silly mapToRegistry   spec: 'latest',
+169 silly mapToRegistry   type: 'tag' }
+170 silly mapToRegistry uri https://registry.npmjs.org/faye-websocket
+171 verbose addNameRange registry:https://registry.npmjs.org/faye-websocket not in flight; fetching
+172 verbose get https://registry.npmjs.org/faye-websocket not expired, no request
+173 silly addNameRange number 2 { name: 'faye-websocket',
+173 silly addNameRange   range: '>=0.11.0 <0.12.0',
+173 silly addNameRange   hasData: true }
+174 silly addNameRange versions [ 'faye-websocket',
+174 silly addNameRange   [ '0.1.0',
+174 silly addNameRange     '0.1.1',
+174 silly addNameRange     '0.1.2',
+174 silly addNameRange     '0.2.0',
+174 silly addNameRange     '0.3.0',
+174 silly addNameRange     '0.3.1',
+174 silly addNameRange     '0.4.0',
+174 silly addNameRange     '0.4.1',
+174 silly addNameRange     '0.4.2',
+174 silly addNameRange     '0.4.3',
+174 silly addNameRange     '0.4.4',
+174 silly addNameRange     '0.5.0',
+174 silly addNameRange     '0.6.0',
+174 silly addNameRange     '0.6.1',
+174 silly addNameRange     '0.7.0',
+174 silly addNameRange     '0.7.1',
+174 silly addNameRange     '0.7.2',
+174 silly addNameRange     '0.7.3',
+174 silly addNameRange     '0.8.0',
+174 silly addNameRange     '0.8.1',
+174 silly addNameRange     '0.9.0',
+174 silly addNameRange     '0.9.1',
+174 silly addNameRange     '0.9.2',
+174 silly addNameRange     '0.9.3',
+174 silly addNameRange     '0.9.4',
+174 silly addNameRange     '0.10.0',
+174 silly addNameRange     '0.11.0',
+174 silly addNameRange     '0.11.1' ] ]
+175 silly pickManifestFromRegistryMetadata spec >=0.11.0 <0.12.0 tag latest versions [ '0.1.0',
+175 silly pickManifestFromRegistryMetadata   '0.1.1',
+175 silly pickManifestFromRegistryMetadata   '0.1.2',
+175 silly pickManifestFromRegistryMetadata   '0.2.0',
+175 silly pickManifestFromRegistryMetadata   '0.3.0',
+175 silly pickManifestFromRegistryMetadata   '0.3.1',
+175 silly pickManifestFromRegistryMetadata   '0.4.0',
+175 silly pickManifestFromRegistryMetadata   '0.4.1',
+175 silly pickManifestFromRegistryMetadata   '0.4.2',
+175 silly pickManifestFromRegistryMetadata   '0.4.3',
+175 silly pickManifestFromRegistryMetadata   '0.4.4',
+175 silly pickManifestFromRegistryMetadata   '0.5.0',
+175 silly pickManifestFromRegistryMetadata   '0.6.0',
+175 silly pickManifestFromRegistryMetadata   '0.6.1',
+175 silly pickManifestFromRegistryMetadata   '0.7.0',
+175 silly pickManifestFromRegistryMetadata   '0.7.1',
+175 silly pickManifestFromRegistryMetadata   '0.7.2',
+175 silly pickManifestFromRegistryMetadata   '0.7.3',
+175 silly pickManifestFromRegistryMetadata   '0.8.0',
+175 silly pickManifestFromRegistryMetadata   '0.8.1',
+175 silly pickManifestFromRegistryMetadata   '0.9.0',
+175 silly pickManifestFromRegistryMetadata   '0.9.1',
+175 silly pickManifestFromRegistryMetadata   '0.9.2',
+175 silly pickManifestFromRegistryMetadata   '0.9.3',
+175 silly pickManifestFromRegistryMetadata   '0.9.4',
+175 silly pickManifestFromRegistryMetadata   '0.10.0',
+175 silly pickManifestFromRegistryMetadata   '0.11.0',
+175 silly pickManifestFromRegistryMetadata   '0.11.1' ]
+176 silly addNamed faye-websocket@latest
+177 verbose addNamed "latest" is being treated as a dist-tag for faye-websocket
+178 info addNameTag [ 'faye-websocket', 'latest' ]
+179 silly mapToRegistry name faye-websocket
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry data Result {
+182 silly mapToRegistry   raw: 'faye-websocket',
+182 silly mapToRegistry   scope: null,
+182 silly mapToRegistry   escapedName: 'faye-websocket',
+182 silly mapToRegistry   name: 'faye-websocket',
+182 silly mapToRegistry   rawSpec: '',
+182 silly mapToRegistry   spec: 'latest',
+182 silly mapToRegistry   type: 'tag' }
+183 silly mapToRegistry uri https://registry.npmjs.org/faye-websocket
+184 verbose addNameTag registry:https://registry.npmjs.org/faye-websocket already in flight; waiting
+185 silly addNameTag next cb for faye-websocket with tag latest
+186 silly addNamed faye-websocket@0.11.1
+187 verbose addNamed "0.11.1" is a plain semver version for faye-websocket
+188 silly cache afterAdd faye-websocket@0.11.1
+189 verbose afterAdd /Users/Hai/.npm/faye-websocket/0.11.1/package/package.json not in flight; writing
+190 verbose correctMkdir /Users/Hai/.npm correctMkdir not in flight; initializing
+191 verbose afterAdd /Users/Hai/.npm/faye-websocket/0.11.1/package/package.json written
+192 silly rollbackFailedOptional Starting
+193 silly rollbackFailedOptional Finishing
+194 silly runTopLevelLifecycles Finishing
+195 silly install printInstalled
+196 verbose stack Error: No compatible version found: uws@^0.10.0
+196 verbose stack Valid install targets:
+196 verbose stack 0.14.1
+196 verbose stack
+196 verbose stack     at pickVersionFromRegistryDocument (/Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+196 verbose stack     at /Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+196 verbose stack     at /Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+196 verbose stack     at saved (/Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+196 verbose stack     at /Users/Hai/.nvm/versions/node/v7.7.3/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+196 verbose stack     at FSReqWrap.oncomplete (fs.js:114:15)
+197 verbose cwd /Users/Hai/Works/websocket-shootout/js
+198 error Darwin 15.6.0
+199 error argv "/Users/Hai/.nvm/versions/node/v7.7.3/bin/node" "/Users/Hai/.nvm/versions/node/v7.7.3/bin/npm" "install"
+200 error node v7.7.3
+201 error npm  v4.1.2
+202 error code ETARGET
+203 error notarget No compatible version found: uws@^0.10.0
+203 error notarget Valid install targets:
+203 error notarget 0.14.1
+204 error notarget This is most likely not a problem with npm itself.
+204 error notarget In most cases you or one of your dependencies are requesting
+204 error notarget a package version that doesn't exist.
+204 error notarget
+204 error notarget It was specified as a dependency of 'ws-bench'
+205 verbose exit [ 1, true ]
